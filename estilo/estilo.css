@@ -1,0 +1,40 @@
+body {
+    background-image: url(imagem/quadro-negro.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    font-size: 1.6em;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0, 0.363);;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.363);
+}
+
+section > div > p > input#txtn, section > div > select#seltab {
+    border: solid rgba(0, 0, 0, 0.384);
+    border-radius: 7px;
+}
+
+section > div > input#bot:hover {
+    background-color: lightgray;
+}
+
+input#bot {
+    margin-bottom: 15px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
